@@ -108,8 +108,8 @@ int main(int argc, char* argv[]){
     };
     GET_TIME(fim);
   
-    printf("Maximo:  %.lf\n", absoluto.max);
-    printf("Minimo:  %.lf\n", absoluto.min);
+    printf("Maximo:  %lf\n", absoluto.max);
+    printf("Minimo:  %lf\n", absoluto.min);
     printf("Tempo:  %lf\n", fim - inicio);
     
     free(resposta);
